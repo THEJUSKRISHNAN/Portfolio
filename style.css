@@ -31,7 +31,7 @@ body {
 }
 
 section {
-    min-height: 100vmin;
+    min-height: 100vh;
     /* padding: 5rem 9% 2rem; */
     padding: 10vmin 9% 4vmin;
 

@@ -312,7 +312,7 @@ span {
 } 
 
 .contact {
-    min-height: 85vmin;
+    min-height: 85vh;
     background: var(--bg-color);
     
 }
@@ -322,7 +322,7 @@ span {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 15vmin;
+    min-height: 15vh;
     
 }
 

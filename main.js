@@ -5,4 +5,3 @@ menuIcon.onclick =()=>{
     menuIcon.classList.toggle('fa-x');
     navbar.classList.toggle('active');
 }
-{/* <i class="fa-solid "></i> */}

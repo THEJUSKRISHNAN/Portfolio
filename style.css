@@ -415,9 +415,7 @@ span {
     }
     .skills-container {
         flex-direction: column;
-        align-items: center;
-        justify-content: space-around
-        
+    
     }
     .navbar.active {
         display: flex;
@@ -439,6 +437,9 @@ span {
     }
     .home-img {
         margin-top: 3rem;
+    }
+    .contact-container {
+        flex-direction: column;
     }
 }
 

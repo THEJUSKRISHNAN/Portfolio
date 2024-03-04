@@ -401,6 +401,7 @@ span {
     #menu-icon{
         display: block;
         font-size: 2rem;
+        margin-right: 4rem;
     }
     .navbar {
         position: absolute;
@@ -441,6 +442,11 @@ span {
     .contact-container {
         flex-direction: column;
     }
+    .header {
+        justify-content: space-between;
+        margin-left: 2rem;
+    }
+
 }
 
 @media (max-width:1100px)
@@ -448,6 +454,7 @@ span {
     #menu-icon{
         display: block;
         font-size: 2rem;
+        margin-right: 4rem;
     }
     .navbar {
         position: absolute;
@@ -459,6 +466,11 @@ span {
         border-top: .1rem solid rgba(0,0,0,0.2);
         box-shadow: 0 .5rem 1rem  rgba(0,0,0,0.2);
         display: none;
+    }
+
+    .header {
+        justify-content: space-between;
+        margin-left: 2rem;
     }
 
     .navbar.active {

@@ -6,35 +6,35 @@ menuIcon.onclick =()=>{
     navbar.classList.toggle('active');
 }
 
-// scrolll selecton active link
-let selectons = document.querySelectorAll('section');
-let navLink = document.querySelectorAll('header nav a');
-window.onscroll=()=>{
-    selectons.forEach(sec =>{
-        let top = window.scrollY;
-        let offset = sec.offsetTop - 150;
-        let height = sec.offsetHeight;
-        let id = sec.getAttribute('id');
+// // scrolll selecton active link
+// let selectons = document.querySelectorAll('section');
+// let navLink = document.querySelectorAll('header nav a');
+// window.onscroll=()=>{
+//     selectons.forEach(sec =>{
+//         let top = window.scrollY;
+//         let offset = sec.offsetTop - 150;
+//         let height = sec.offsetHeight;
+//         let id = sec.getAttribute('id');
 
-        if(top >-offset && top < offset+height)
-        {
-            navLink.forEach.apply(links => {
-                links.classList.remove('active');
-                document.querySelector('header nav a[href*=' +id + ']').classList.add('active');
+//         if(top >-offset && top < offset+height)
+//         {
+//             navLink.forEach.apply(links => {
+//                 links.classList.remove('active');
+//                 document.querySelector('header nav a[href*=' +id + ']').classList.add('active');
 
-            });
-        };
-    })
+//             });
+//         };
+//     })
 
     // sticky nav bar
 
-    let header=document.querySelector('header');
-    header.classList.toggle('sticky',window.scrollY>100);
+//     let header=document.querySelector('header');
+//     header.classList.toggle('sticky',window.scrollY>100);
 
-    // remove togle icon and navbar
-    menuIcon.classList.remove('fa-x');
-    navbar.classList.remove('active');
- }
+//     // remove togle icon and navbar
+//     menuIcon.classList.remove('fa-x');
+//     navbar.classList.remove('active');
+//  }
 
 //  scrol reveal
 
@@ -48,7 +48,7 @@ ScrollReveal({
 ScrollReveal().reveal('.home-content,.heading', {origin:'top'});
 ScrollReveal().reveal('.home-img,.skills-container,.portfolio-box,.contact-container', {origin:'buttom' });
 ScrollReveal().reveal('.about-img', {origin:'left'});
-ScrollReveal().reveal('.about-content,.navbar', {origin:'right'});
+ScrollReveal().reveal('.about-content', {origin:'right'});
 
 
 // typed js

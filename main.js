@@ -11,15 +11,13 @@ menuIcon.onclick =()=>{
 ScrollReveal({
     distance: '50px',
     duration:2000,
-    delay:200,
+    delay:300,
 
 });
 
-ScrollReveal().reveal('.home-content,.heading', {origin:'top'});
-ScrollReveal().reveal('.home-img,.skills-container,.portfolio-box,.contact-container', {origin:'buttom' });
-ScrollReveal().reveal('.about-img', {origin:'left'});
-ScrollReveal().reveal('.about-content', {origin:'right'});
-
+ScrollReveal().reveal('.home-content,.heading,.about-content', {origin:'top'});
+ScrollReveal().reveal('.skills-container,.portfolio-box,.contact-container', {origin:'bottom' });
+ScrollReveal().reveal('.about-img,.home-img', {origin:'left'});
 
 // typed js
 const typed = new Typed('.multiple-text',{

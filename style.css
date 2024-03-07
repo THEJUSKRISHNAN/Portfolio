@@ -445,7 +445,10 @@ span {
     }
     .header {
         justify-content: space-between;
-        margin-left: 2rem;
+        
+    }
+    .logo {
+        margin-left: 3rem;
     }
 
 
@@ -472,7 +475,10 @@ span {
 
     .header {
         justify-content: space-between;
-        margin-left: 2rem;
+        /* margin-left: 2rem; */
+    }
+    .logo {
+        margin-left: 3rem;
     }
 
     .navbar.active {
